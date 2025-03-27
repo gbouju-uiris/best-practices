@@ -1,0 +1,44 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+    - id: check-added-large-files
+    - id: check-merge-conflict
+    - id: check-vcs-permalinks
+    - id: forbid-new-submodules
+    - id: no-commit-to-branch
+    # - id: end-of-file-fixer
+    # - id: trailing-whitespace
+      # args: [--markdown-linebreak-ext=md]
+      exclude: CHANGELOG.md
+    - id: check-yaml
+    - id: check-executables-have-shebangs
+    - id: check-case-conflict
+    - id: detect-private-key
+
+- repo: https://github.com/commitizen-tools/commitizen
+  rev: v4.4.1
+  hooks:
+    - id: commitizen
+    - id: commitizen-branch
+      stages:
+        - post-commit
+
+- repo: https://github.com/terraform-docs/terraform-docs
+  rev: v0.19.0
+  hooks:
+    - id: terraform-docs-go
+      args: ["markdown", "table", "--output-file", "README.md", "--recursive", "--recursive-include-main=false", "--recursive-path=./cloud_function", "."]
+    - id: terraform-docs-go
+      args: ["markdown", "table", "--output-file", "README.md", "./loud_function/max_execution"]
+
+- repo: https://github.com/AleksaC/terraform-py
+  rev: v1.11.2
+  hooks:
+    - id: tf-fmt
+    # - id: tf-validate
+
+- repo: https://github.com/psf/black
+  rev: 25.1.0
+  hooks:
+  - id: black
