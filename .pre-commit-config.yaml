@@ -48,7 +48,6 @@ repos:
                                                         # For Asciidoc this could be "--hook-config=--custom-marker-end=\= "
         - --args=--config=.terraform-docs.yml
 
-
 - repo: https://github.com/AleksaC/terraform-py
   rev: v1.11.2
   hooks:
