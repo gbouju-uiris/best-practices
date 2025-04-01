@@ -1,0 +1,34 @@
+---
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+    - id: check-added-large-files
+    - id: check-merge-conflict
+    - id: check-vcs-permalinks
+    - id: forbid-new-submodules
+    - id: no-commit-to-branch
+      exclude: CHANGELOG.md
+    - id: check-yaml
+    - id: check-executables-have-shebangs
+    - id: check-case-conflict
+    - id: detect-private-key
+
+- repo: https://github.com/commitizen-tools/commitizen
+  rev: v4.4.1
+  hooks:
+    - id: commitizen
+    - id: commitizen-branch
+      stages:
+        - post-commit
+
+- repo: https://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.98.0
+  hooks:
+    - id: terraform_fmt
+    - id: terraform_docs
+      args:
+        - --hook-config=--path-to-file=README.md
+        - --hook-config=--add-to-existing-file=true
+        - --args=--config=.terraform-docs.yml
+#     - id: terraform_validate

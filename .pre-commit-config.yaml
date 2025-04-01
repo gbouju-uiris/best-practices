@@ -1,3 +1,4 @@
+---
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v5.0.0
@@ -7,9 +8,9 @@ repos:
     - id: check-vcs-permalinks
     - id: forbid-new-submodules
     - id: no-commit-to-branch
-    # - id: end-of-file-fixer
-    # - id: trailing-whitespace
-      # args: [--markdown-linebreak-ext=md]
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+      args: [--markdown-linebreak-ext=md]
       exclude: CHANGELOG.md
     - id: check-yaml
     - id: check-executables-have-shebangs
@@ -24,21 +25,45 @@ repos:
       stages:
         - post-commit
 
-- repo: https://github.com/terraform-docs/terraform-docs
-  rev: v0.19.0
+# - repo: https://github.com/terraform-docs/terraform-docs
+#   rev: v0.19.0
+#   hooks:
+#     - id: terraform-docs-go
+#       args: ["markdown", "table", "--output-file", "README.md", "./_template"]
+#     - id: terraform-docs-go
+#       args: ["markdown", "table", "--output-file", "README.md", "."]
+#     - id: terraform-docs-go
+#       args: ["markdown", "table", "--output-file", "README.md", "."]
+
+- repo: https://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.98.0
   hooks:
-    - id: terraform-docs-go
-      args: ["markdown", "table", "--output-file", "README.md", "--recursive", "--recursive-include-main=false", "--recursive-path=./cloud_function", "."]
-    - id: terraform-docs-go
-      args: ["markdown", "table", "--output-file", "README.md", "./loud_function/max_execution"]
+    - id: terraform_docs
+      args:
+        - --hook-config=--path-to-file=README.md
+        - --hook-config=--add-to-existing-file=true
+        - --hook-config=--create-file-if-not-exist=true
+        - --hook-config=--custom-doc-header="# "
+        - --args=--config=.terraform-docs.yml
 
 - repo: https://github.com/AleksaC/terraform-py
   rev: v1.11.2
   hooks:
     - id: tf-fmt
-    # - id: tf-validate
+    - id: tf-validate
 
 - repo: https://github.com/psf/black
   rev: 25.1.0
   hooks:
   - id: black
+
+- repo: https://github.com/gitleaks/gitleaks
+  rev: v8.24.2
+  hooks:
+  - id: gitleaks
+
+- repo: https://github.com/adrienverge/yamllint
+  rev: v1.37.0
+  hooks:
+  - id: yamllint
+    types: [file, yaml]
