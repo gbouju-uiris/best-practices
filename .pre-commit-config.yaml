@@ -1,18 +1,61 @@
 repos:
-- hooks:
-  - id: check-yaml
-  - id: end-of-file-fixer
-  - id: trailing-whitespace
-  repo: https://github.com/pre-commit/pre-commit-hooks
+- repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v5.0.0
-- hooks:
-  - id: black
-  repo: https://github.com/psf/black
-  rev: 25.1.0
-- hooks:
-  - id: commitizen
-  - id: commitizen-branch
-    stages:
-    - push
-  repo: https://github.com/commitizen-tools/commitizen
+  hooks:
+    - id: check-added-large-files
+    - id: check-merge-conflict
+    - id: check-vcs-permalinks
+    - id: forbid-new-submodules
+    - id: no-commit-to-branch
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+      args: [--markdown-linebreak-ext=md]
+      exclude: CHANGELOG.md
+    - id: check-yaml
+    - id: check-executables-have-shebangs
+    - id: check-case-conflict
+    - id: detect-private-key
+
+- repo: https://github.com/commitizen-tools/commitizen
   rev: v4.4.1
+  hooks:
+    - id: commitizen
+    - id: commitizen-branch
+      stages:
+        - post-commit
+
+# - repo: https://github.com/terraform-docs/terraform-docs
+#   rev: v0.19.0
+#   hooks:
+#     # - id: terraform-docs-go
+#     #   args: ["markdown", "table", "--output-file", "README.md", "./_template"]
+#     - id: terraform-docs-go
+#       args: ["markdown", "table", "--output-file", "README.md", "."]
+#     - id: terraform-docs-go
+#       args: ["markdown", "table", "--output-file", "README.md", "."]
+
+- repo: https://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.98.0
+  hooks:
+    - id: terraform_docs
+      args:
+        - --hook-config=--path-to-file=README.md        # Valid UNIX path. I.e. ../TFDOC.md or docs/README.md etc.
+        - --hook-config=--add-to-existing-file=true     # Boolean. true or false
+        # - --hook-config=--create-file-if-not-exist=true # Boolean. true or false
+          # The following two options "--custom-marker-begin" and "--custom-marker-end" are ignored if "--use-standard-markers" is set to false
+        - --hook-config=--custom-doc-header="# "        # String. Defaults to "# "
+                                                        # Set to use custom marker which helps you with using other formats like asciidoc.
+                                                        # For Asciidoc this could be "--hook-config=--custom-marker-end=\= "
+        - --args=--config=.terraform-docs.yml
+
+
+- repo: https://github.com/AleksaC/terraform-py
+  rev: v1.11.2
+  hooks:
+    - id: tf-fmt
+    - id: tf-validate
+
+- repo: https://github.com/psf/black
+  rev: 25.1.0
+  hooks:
+  - id: black

@@ -11,12 +11,12 @@ Installation du package pre-commit
 ```bash
 pipx install pre-commit
 ```
-    
+
 ### Configuration
 
 Configuration du package commitizen
 1. créer un fichier nommé `.pre-commit-config.yaml`
-2. Générer une configuration  basique en utilisant la commande 
+2. Générer une configuration  basique en utilisant la commande
     ```bash
     pre-commit sample-config
     ```
