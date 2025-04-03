@@ -59,7 +59,7 @@ L'extension Markdownlint fournit des règles de style et des vérifications pour
 
 [Markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)
 
-## Fonctionnalités
+**Fonctionnalités**
 
 - Vérifie la conformité aux règles de style Markdown.
 - Aide à maintenir une cohérence dans les documents Markdown.
