@@ -5,7 +5,6 @@
   - [Path Intellisense](#path-intellisense)
   - [.gitignore](#gitignore)
   - [Markdownlint](#markdownlint)
-  - [Fonctionnalités](#fonctionnalités)
   - [Markdown All in One](#markdown-all-in-one)
   - [Prettier - Code formatter](#prettier---code-formatter)
   - [YAML](#yaml)
@@ -15,60 +14,49 @@
   - [Edit CSV](#edit-csv)
   - [Rainbow CSV](#rainbow-csv)
   - [Live Share](#live-share)
-  - [URL](#url)
   - [Indent Rainbow](#indent-rainbow)
   - [Material Icon Theme](#material-icon-theme)
-  - [Script shell](#script-shell)
+  - [Commandes shell](#commandes-shell)
 
-## Better Comments
+## [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
 L'extension Better Comments vous permet de créer des commentaires plus humains dans votre code.
-
-[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
 **Fonctionnalités**
 
 - Personnalisation des alertes, des requêtes, des TODOs, des surlignages et des commentaires commentés.
 - Amélioration de la lisibilité du code.
 
-## Path Intellisense
+## [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 L'extension Path Intellisense fournit une autocomplétion pour les noms de fichiers.
-
-[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 **Fonctionnalités**
 
 - Complétion automatique des chemins de fichiers.
 - Supporte les chemins relatifs et absolus.
 
-## .gitignore
+## [.gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
 
 L'extension .gitignore vous aide à créer et à gérer les fichiers .gitignore.
-
-[.gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
 
 **Fonctionnalités**
 
 - Ajoute des modèles de .gitignore pour différents langages et frameworks.
 - Facilite la création et la modification des fichiers .gitignore.
 
-## Markdownlint
+## [Markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)
 
 L'extension Markdownlint fournit des règles de style et des vérifications pour les fichiers Markdown.
-
-[Markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)
 
 **Fonctionnalités**
 
 - Vérifie la conformité aux règles de style Markdown.
 - Aide à maintenir une cohérence dans les documents Markdown.
 
-## Markdown All in One
+## [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 L'extension Markdown All in One fournit un ensemble de fonctionnalités pour travailler avec les fichiers Markdown.
-
-[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
 **Fonctionnalités**
 
@@ -76,22 +64,18 @@ L'extension Markdown All in One fournit un ensemble de fonctionnalités pour tra
 - Raccourcis clavier.
 - Navigation dans les documents.
 
-## Prettier - Code formatter
+## [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 L'extension Prettier formate votre code pour assurer une cohérence de style.
-
-[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 **Fonctionnalités**
 
 - Formatage automatique du code pour différents langages.
 - Supporte les configurations personnalisées.
 
-## YAML
+## [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 L'extension YAML fournit un support pour le langage YAML.
-
-[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 **Fonctionnalités**
 
@@ -99,11 +83,9 @@ L'extension YAML fournit un support pour le langage YAML.
 - Validation de la syntaxe.
 - Autocomplétion.
 
-## GitHub Pull Requests and Issues
+## [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github)
 
 L'extension GitHub Pull Requests and Issues vous permet de gérer les pull requests et les issues directement depuis VS Code.
-
-[GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github)
 
 **Fonctionnalités**
 
@@ -111,11 +93,9 @@ L'extension GitHub Pull Requests and Issues vous permet de gérer les pull reque
 - Gestion des issues GitHub.
 - Intégration transparente avec GitHub.
 
-## Git Graph
+## [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 L'extension Git Graph affiche un graphique visuel de l'historique de votre dépôt Git.
-
-[Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 **Fonctionnalités**
 
@@ -123,11 +103,9 @@ L'extension Git Graph affiche un graphique visuel de l'historique de votre dép�
 - Comparaison des branches.
 - Gestion des commits et des branches.
 
-## Terraform
+## [Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
 
 L'extension Terraform fournit un support pour le langage Terraform.
-
-[Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
 
 **Fonctionnalités**
 
@@ -135,22 +113,18 @@ L'extension Terraform fournit un support pour le langage Terraform.
 - Autocomplétion.
 - Validation de la syntaxe.
 
-## Edit CSV
+## [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
 
 L'extension Edit CSV vous permet de modifier les fichiers CSV directement dans VS Code.
-
-[Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
 
 **Fonctionnalités**
 
 - Édition de fichiers CSV avec une interface tabulaire.
 - Tri et filtrage des données.
 
-## Rainbow CSV
+## [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
 L'extension Rainbow CSV colore les colonnes des fichiers CSV pour une meilleure lisibilité.
-
-[Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
 **Fonctionnalités**
 
@@ -158,7 +132,7 @@ L'extension Rainbow CSV colore les colonnes des fichiers CSV pour une meilleure 
 - Supporte différents délimiteurs.
 - Validation de la syntaxe CSV.
 
-## Live Share
+## [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
 
 L'extension Live Share vous permet de collaborer en temps réel avec d'autres développeurs.
 
@@ -168,11 +142,7 @@ L'extension Live Share vous permet de collaborer en temps réel avec d'autres d�
 - Édition collaborative.
 - Débogage collaboratif.
 
-## URL
-
-[Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
-
-## Indent Rainbow
+## [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
 L'extension Indent Rainbow colore les niveaux d'indentation pour une meilleure lisibilité.
 
@@ -181,20 +151,16 @@ L'extension Indent Rainbow colore les niveaux d'indentation pour une meilleure l
 - Coloration des niveaux d'indentation.
 - Amélioration de la lisibilité du code.
 
-[Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-
-## Material Icon Theme
+## [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme)
 
 L'extension Material Icon Theme ajoute des icônes de fichiers et de dossiers basées sur le Material Design.
-
-[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme)
 
 **Fonctionnalités**
 
 - Icônes de fichiers et de dossiers personnalisées.
 - Amélioration de l'apparence de VS Code.
 
-## Script shell
+## Commandes shell
 
 ```bash
 code --install-extension aaron-bond.better-comments
