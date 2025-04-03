@@ -5,8 +5,12 @@
 *
 *
 
-
 ## 🐛 Fix(es)
+
+*
+*
+
+## 💥 Breaking change(s)
 
 *
 *
@@ -20,6 +24,5 @@
 
 *
 *
-
 
 **Full Changelog**: https://github.com/XXX/v1.9.3...v1.10.0
