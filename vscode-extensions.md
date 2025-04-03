@@ -1,0 +1,216 @@
+# VSCODE Extensions
+
+- [VSCODE Extensions](#vscode-extensions)
+  - [Better Comments](#better-comments)
+  - [Path Intellisense](#path-intellisense)
+  - [.gitignore](#gitignore)
+  - [Markdownlint](#markdownlint)
+  - [Fonctionnalités](#fonctionnalités)
+  - [Markdown All in One](#markdown-all-in-one)
+  - [Prettier - Code formatter](#prettier---code-formatter)
+  - [YAML](#yaml)
+  - [GitHub Pull Requests and Issues](#github-pull-requests-and-issues)
+  - [Git Graph](#git-graph)
+  - [Terraform](#terraform)
+  - [Edit CSV](#edit-csv)
+  - [Rainbow CSV](#rainbow-csv)
+  - [Live Share](#live-share)
+  - [URL](#url)
+  - [Indent Rainbow](#indent-rainbow)
+  - [Material Icon Theme](#material-icon-theme)
+  - [Script shell](#script-shell)
+
+## Better Comments
+
+L'extension Better Comments vous permet de créer des commentaires plus humains dans votre code.
+
+[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+
+**Fonctionnalités**
+
+- Personnalisation des alertes, des requêtes, des TODOs, des surlignages et des commentaires commentés.
+- Amélioration de la lisibilité du code.
+
+## Path Intellisense
+
+L'extension Path Intellisense fournit une autocomplétion pour les noms de fichiers.
+
+[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+**Fonctionnalités**
+
+- Complétion automatique des chemins de fichiers.
+- Supporte les chemins relatifs et absolus.
+
+## .gitignore
+
+L'extension .gitignore vous aide à créer et à gérer les fichiers .gitignore.
+
+[.gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
+
+**Fonctionnalités**
+
+- Ajoute des modèles de .gitignore pour différents langages et frameworks.
+- Facilite la création et la modification des fichiers .gitignore.
+
+## Markdownlint
+
+L'extension Markdownlint fournit des règles de style et des vérifications pour les fichiers Markdown.
+
+[Markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint)
+
+## Fonctionnalités
+
+- Vérifie la conformité aux règles de style Markdown.
+- Aide à maintenir une cohérence dans les documents Markdown.
+
+## Markdown All in One
+
+L'extension Markdown All in One fournit un ensemble de fonctionnalités pour travailler avec les fichiers Markdown.
+
+[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+**Fonctionnalités**
+
+- Aperçu en direct.
+- Raccourcis clavier.
+- Navigation dans les documents.
+
+## Prettier - Code formatter
+
+L'extension Prettier formate votre code pour assurer une cohérence de style.
+
+[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+**Fonctionnalités**
+
+- Formatage automatique du code pour différents langages.
+- Supporte les configurations personnalisées.
+
+## YAML
+
+L'extension YAML fournit un support pour le langage YAML.
+
+[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+
+**Fonctionnalités**
+
+- Coloration syntaxique.
+- Validation de la syntaxe.
+- Autocomplétion.
+
+## GitHub Pull Requests and Issues
+
+L'extension GitHub Pull Requests and Issues vous permet de gérer les pull requests et les issues directement depuis VS Code.
+
+[GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=github.vscode-pull-request-github)
+
+**Fonctionnalités**
+
+- Création et révision des pull requests.
+- Gestion des issues GitHub.
+- Intégration transparente avec GitHub.
+
+## Git Graph
+
+L'extension Git Graph affiche un graphique visuel de l'historique de votre dépôt Git.
+
+[Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+**Fonctionnalités**
+
+- Visualisation de l'historique Git.
+- Comparaison des branches.
+- Gestion des commits et des branches.
+
+## Terraform
+
+L'extension Terraform fournit un support pour le langage Terraform.
+
+[Terraform](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)
+
+**Fonctionnalités**
+
+- Coloration syntaxique.
+- Autocomplétion.
+- Validation de la syntaxe.
+
+## Edit CSV
+
+L'extension Edit CSV vous permet de modifier les fichiers CSV directement dans VS Code.
+
+[Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
+
+**Fonctionnalités**
+
+- Édition de fichiers CSV avec une interface tabulaire.
+- Tri et filtrage des données.
+
+## Rainbow CSV
+
+L'extension Rainbow CSV colore les colonnes des fichiers CSV pour une meilleure lisibilité.
+
+[Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+
+**Fonctionnalités**
+
+- Coloration des colonnes dans les fichiers CSV.
+- Supporte différents délimiteurs.
+- Validation de la syntaxe CSV.
+
+## Live Share
+
+L'extension Live Share vous permet de collaborer en temps réel avec d'autres développeurs.
+
+**Fonctionnalités**
+
+- Partage de code et de terminaux.
+- Édition collaborative.
+- Débogage collaboratif.
+
+## URL
+
+[Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
+
+## Indent Rainbow
+
+L'extension Indent Rainbow colore les niveaux d'indentation pour une meilleure lisibilité.
+
+**Fonctionnalités**
+
+- Coloration des niveaux d'indentation.
+- Amélioration de la lisibilité du code.
+
+[Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+
+## Material Icon Theme
+
+L'extension Material Icon Theme ajoute des icônes de fichiers et de dossiers basées sur le Material Design.
+
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme)
+
+**Fonctionnalités**
+
+- Icônes de fichiers et de dossiers personnalisées.
+- Amélioration de l'apparence de VS Code.
+
+## Script shell
+
+```bash
+code --install-extension aaron-bond.better-comments
+code --install-extension christian-kohler.path-intellisense
+code --install-extension codezombiech.gitignore
+code --install-extension davidanson.vscode-markdownlint
+code --install-extension esbenp.prettier-vscode
+code --install-extension github.vscode-pull-request-github
+code --install-extension hashicorp.terraform
+code --install-extension janisdd.vscode-edit-csv
+code --install-extension mechatroner.rainbow-csv
+code --install-extension mhutchie.git-graph
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension oderwat.indent-rainbow
+code --install-extension pkief.material-icon-theme
+code --install-extension redhat.vscode-yaml
+code --install-extension yzhang.markdown-all-in-one
+```
