@@ -16,6 +16,8 @@
   - [Live Share](#live-share)
   - [Indent Rainbow](#indent-rainbow)
   - [Material Icon Theme](#material-icon-theme)
+  - [Code Spell Checker](#code-spell-checker)
+  - [Error Lens](#error-lens)
   - [Commandes shell](#commandes-shell)
 
 ## [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
@@ -160,6 +162,28 @@ L'extension Material Icon Theme ajoute des icônes de fichiers et de dossiers ba
 - Icônes de fichiers et de dossiers personnalisées.
 - Amélioration de l'apparence de VS Code.
 
+## [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
+L'extension Code Spell Checker est un correcteur orthographique pour le code.
+
+**Fonctionnalités**
+
+- Vérifie l'orthographe des mots dans le code.
+- Supporte plusieurs langues.
+- Permet de personnaliser les dictionnaires.
+- Aide à maintenir la qualité du code en évitant les fautes d'orthographe.
+
+## [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+Error Lens améliore la visibilité des diagnostics de langage (erreurs, avertissements) directement dans l'éditeur.
+
+**Fonctionnalités**
+
+- Affiche les diagnostics en ligne, à côté de la ligne de code concernée.
+- Met en évidence les erreurs et avertissements avec des icônes et des couleurs.
+- Fournit des informations détaillées sur les diagnostics au survol.
+- Configurez la visibilité des erreurs, avertissements et informations.
+
 ## Commandes shell
 
 ```bash
@@ -179,4 +203,5 @@ code --install-extension oderwat.indent-rainbow
 code --install-extension pkief.material-icon-theme
 code --install-extension redhat.vscode-yaml
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension streetsidesoftware.code-spell-checker
 ```
