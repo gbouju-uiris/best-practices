@@ -204,4 +204,5 @@ code --install-extension pkief.material-icon-theme
 code --install-extension redhat.vscode-yaml
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension usernamehw.errorlens
 ```
